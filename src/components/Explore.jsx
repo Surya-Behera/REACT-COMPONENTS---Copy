@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 // import { useNavigate } from 'react-router-dom'
 
-const About = () => {
+const Explore = () => {
   const [query, setQuery] = useState('');
 
   const handleInputChange = (e) => {
@@ -33,7 +33,7 @@ const About = () => {
     'India',
   ];
   const time = [
-    'Select a time period range',
+    'Time period',
     'Today',
     'Last Day',
     'Past Month',
@@ -42,7 +42,7 @@ const About = () => {
     'Past 12 Years',
     ];
   const catagory = [
-    'Select a company category',
+    'Company type',
     'IT',
     'Pharmaceuticals',
     'Food and Beverage',
@@ -93,7 +93,7 @@ const About = () => {
 
 
      {/* for selection barr */}
-     <div className="flex flex-row items-center mt-6 gap-4  md:ml-3 ml-20">
+     <div className="flex flex-row items-center mt-6 md:gap-4 gap-1  md:ml-3 ml-2">
       {/* Selection Field 1 */}
       <div className="mb-4">
        
@@ -153,4 +153,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Explore

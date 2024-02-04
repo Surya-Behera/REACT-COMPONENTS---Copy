@@ -22,10 +22,10 @@
     }, []);
   return (
     <>
-     <div className='w-full h-[900px] bg-green-500 p-4' >
-      <div className="text-container w-[1060px] h-[200px] bg-green-100 m-4">{topic}</div>
-      <div className="text-container   w-[1060px] h-[200px] bg-green-100 m-4">{text2}</div>
-      <div className="text-container  w-[1060px] h-[200px] bg-green-100 m-4">{text3}</div>
+     <div className='w-full h-[900px] bg-green-500 p-2' >
+      <div className="text-container md:w-[1060px] w-[450px] h-[200px] bg-green-100 m-4">{topic}</div>
+      <div className="text-container  md:w-[1060px] w-[450px] h-[200px] bg-green-100 m-4">{text2}</div>
+      <div className="text-container md:w-[1060px] w-[450px] h-[200px] bg-green-100 m-4">{text3}</div>
     </div>
      </>
   )
